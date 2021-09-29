@@ -2,8 +2,8 @@ import 'dart:convert';
 
 import 'package:shared_preferences/shared_preferences.dart';
 
-String BASE_URL = "https://www.towfin.com/";
-String ASSET_URL = "https://www.towfin.com/";
+String BASE_URL = "http://www.towfin.com/";
+String ASSET_URL = "http://www.towfin.com/";
 String PAYSTACKKEY = "pk_live_993e4d50be323b3b8dbeeb84c6398ffa95e7adac";
 
 String getStatusUrl = "api/provider/trip?";
